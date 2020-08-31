@@ -3,7 +3,7 @@ from src.kata import Kata
 
 
 class TestKata:
-    valid_rev_str_data = [["abc", "cba"], ["step on no pets", "step on no pets"], ["travis", "sivart"]]
+    valid_rev_str_data = [["abc", "cba"], ["step on no pets", "step on no pets"], ["travis", "sivart"], ["", ""]]
     invalid_rev_str_data = [14, [], True]
 
     @pytest.mark.parametrize("valid_str, expect_str", valid_rev_str_data)
