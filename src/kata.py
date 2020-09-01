@@ -11,4 +11,7 @@ class Kata:
 
     @staticmethod
     def fizzbuzz(src_int: int) -> str:
-        return str(src_int)
+        if src_int % 3 == 0:
+            return "fizz"
+        else:
+            return str(src_int)

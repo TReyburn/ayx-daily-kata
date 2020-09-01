@@ -5,7 +5,7 @@ from src.kata import Kata
 class TestKata:
     valid_rev_str_data = [["abc", "cba"], ["step on no pets", "step on no pets"], ["travis", "sivart"], ["", ""]]
     invalid_rev_str_data = [14, [], True]
-    valid_fizzbuzz_data = [[1, "1"], [2, "2"]]
+    valid_fizzbuzz_data = [[1, "1"], [2, "2"], [3, "fizz"]]
     invalid_fizzbuzz_data = []
 
     @pytest.mark.parametrize("valid_str, expect_str", valid_rev_str_data)
