@@ -17,5 +17,5 @@ class Kata:
         if src_int % 5 == 0:
             res_str += "buzz"
         if not res_str:
-            return str(src_int)
+            res_str += str(src_int)
         return res_str
