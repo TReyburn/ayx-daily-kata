@@ -13,3 +13,9 @@ class TestKata:
     @pytest.mark.parametrize("invalid_str", invalid_rev_str_data)
     def test_reverse_str_invalid(self, invalid_str: any):
         assert not Kata.reverse_str(invalid_str)
+
+    def test_fizz_buzz_valid(self):
+        assert False
+
+    def test_fizz_buzz_invalid(self):
+        assert False

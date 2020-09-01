@@ -8,3 +8,7 @@ class Kata:
         for letter in src_str:
             rev_str = letter + rev_str
         return rev_str
+
+    @staticmethod
+    def fizzbuzz(src_int: int) -> str:
+        pass
