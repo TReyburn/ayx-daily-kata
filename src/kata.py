@@ -11,4 +11,4 @@ class Kata:
 
     @staticmethod
     def fizzbuzz(src_int: int) -> str:
-        pass
+        return str(src_int)
