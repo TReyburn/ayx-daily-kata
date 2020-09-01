@@ -13,5 +13,7 @@ class Kata:
     def fizzbuzz(src_int: int) -> str:
         if src_int % 3 == 0:
             return "fizz"
+        elif src_int % 5 == 0:
+            return "buzz"
         else:
             return str(src_int)
